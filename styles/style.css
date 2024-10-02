@@ -3,12 +3,17 @@
 /* Alterar valores de variáveis do Bootstrap */
 :root {
   /* Cor de fundo da página */
-  --bs-body-bg: #e8e8e8 !important;
+  --bs-body-bg: #131313 !important;
+}
+
+body {
+  /* Cor do texto */
+  color: white !important;
 }
 
 section.box-livros {
   /* Cor de fundo */
-  background-color: #f2f2f2;
+  background-color: #252525;
   /* Cantos arredondados */
   border-radius: 8px;
   /* Sombra */
@@ -19,7 +24,7 @@ section.box-livros {
   padding: 3px;
 
   /* Transição (pro hover) */
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 /* Borda gradiente: desenhada atrás da section */
 section.box-livros::before {
@@ -41,7 +46,5 @@ section.box-livros::before {
 /* Efeito hover na section de livros */
 section.box-livros:hover {
   /* Cor de fundo */
-  background-color: #252525;
-  /* Cor do texto */
-  color: white;
+  background-color: #454545;
 }
