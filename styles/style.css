@@ -3,12 +3,12 @@
 /* Alterar valores de variáveis do Bootstrap */
 :root {
   /* Cor de fundo da página */
-  --bs-body-bg: #252525 !important;
+  --bs-body-bg: #e8e8e8 !important;
 }
 
 section.box-livros {
   /* Cor de fundo */
-  background-color: #121212;
+  background-color: #f2f2f2;
   /* Cantos arredondados */
   border-radius: 8px;
   /* Sombra */
