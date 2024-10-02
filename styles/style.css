@@ -15,6 +15,22 @@ section.box-livros {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 
   /* Borda gradiente */
-  border-image: linear-gradient(to top left, #ff8a1e, #3e0372) 1 !important;
-  border-width: 3px !important;
+  position: relative;
+  padding: 3px;
+}
+/* Borda gradiente: desenhada atrás da section */
+section.box-livros::before {
+  content: "";
+  position: absolute;
+  /* Espessura da borda */
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  /* Posicionar atrás da section */
+  z-index: -1;
+  /* Arredondar a borda */
+  border-radius: 10px;
+  /* Cor gradiente da borda */
+  background: linear-gradient(to top left, #ff8a1e, #3e0372);
 }
