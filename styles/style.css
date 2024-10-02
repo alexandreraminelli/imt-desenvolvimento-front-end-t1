@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+/* Alterar valores de variáveis do Bootstrap */
+:root {
+  /* Cor de fundo da página */
+  --bs-body-bg: #252525 !important;
+}
+
+section.box-livros {
+  /* Cor de fundo */
+  background-color: #121212;
+  /* Cantos arredondados */
+  border-radius: 8px;
+  /* Sombra */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
