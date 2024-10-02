@@ -48,3 +48,7 @@ section.box-livros:hover {
   /* Cor de fundo */
   background-color: #454545;
 }
+
+img {
+  border-radius: 7px;
+}
