@@ -17,6 +17,9 @@ section.box-livros {
   /* Borda gradiente */
   position: relative;
   padding: 3px;
+
+  /* Transição (pro hover) */
+  transition: background-color 0.5s, color 0.5s;
 }
 /* Borda gradiente: desenhada atrás da section */
 section.box-livros::before {
@@ -33,4 +36,12 @@ section.box-livros::before {
   border-radius: 10px;
   /* Cor gradiente da borda */
   background: linear-gradient(to top left, #ff8a1e, #3e0372);
+}
+
+/* Efeito hover na section de livros */
+section.box-livros:hover {
+  /* Cor de fundo */
+  background-color: #252525;
+  /* Cor do texto */
+  color: white;
 }
