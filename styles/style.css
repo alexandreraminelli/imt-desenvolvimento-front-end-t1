@@ -13,4 +13,8 @@ section.box-livros {
   border-radius: 8px;
   /* Sombra */
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+
+  /* Borda gradiente */
+  border-image: linear-gradient(to top left, #ff8a1e, #3e0372) 1 !important;
+  border-width: 3px !important;
 }
